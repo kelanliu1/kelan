@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+/*import React, { Suspense } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { TextureLoader, DoubleSide, CircleGeometry, MeshBasicMaterial, Group, Mesh, PerspectiveCamera } from 'three';
 import CanvasLoader from './Loader';
@@ -38,7 +38,7 @@ const ProfileComponent = () => (
   </Canvas>
 );
 
-export default ProfileComponent;
+export default ProfileComponent;*/
 
 /* 3D Profile Test
 let scene = new THREE.Scene();

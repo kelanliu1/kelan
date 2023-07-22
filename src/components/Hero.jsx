@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 
 import { Socials } from "../components";
-import { ProfileCanvas } from "../components";
+//import { ProfileCanvas } from "../components";
 
 
 const Hero = () => {
@@ -26,6 +26,7 @@ const Hero = () => {
           </p>
         </div>
         {/*<ProfileCanvas/>*/}
+        <img src={"src/assets/kelan2.jpg"} />
       </div>
       <div style={{ paddingLeft: "75px", paddingTop: "275px" }}>
         <Socials />

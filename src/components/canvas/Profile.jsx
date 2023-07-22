@@ -2,10 +2,11 @@ import React, { Suspense } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { TextureLoader, DoubleSide, CircleGeometry, MeshBasicMaterial, Group, Mesh, PerspectiveCamera } from 'three';
 import CanvasLoader from '../Loader';
-
+import img1 from './kelan2.jpg';
+import img2 from './kelan3.jpg';
 const ProfileCanvas = () => {
-  const texture1 = useLoader(TextureLoader, 'src/assets/kelan2.jpg');
-  const texture2 = useLoader(TextureLoader, 'src/assets/kelan3.jpg');
+  const texture1 = useLoader(TextureLoader, img1);
+  const texture2 = useLoader(TextureLoader, img2);
 
   const groupRef = React.useRef();
 

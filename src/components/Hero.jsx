@@ -25,7 +25,7 @@ const Hero = () => {
             Passionate about AI/ML
           </p>
         </div>
-        <ProfileCanvas/>
+        {/*<ProfileCanvas/>*/}
       </div>
       <div style={{ paddingLeft: "75px", paddingTop: "275px" }}>
         <Socials />

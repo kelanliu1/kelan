@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { TextureLoader, DoubleSide, CircleGeometry, MeshBasicMaterial, Group, Mesh, PerspectiveCamera } from 'three';
-import CanvasLoader from '../Loader';
+import CanvasLoader from './Loader';
 
 const ProfileCanvas = () => {
   const texture1 = useLoader(TextureLoader, 'src/assets/kelan2.jpg');

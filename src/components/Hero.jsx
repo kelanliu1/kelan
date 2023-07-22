@@ -3,8 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 
 import { Socials } from "../components";
-//import { ProfileCanvas } from "../components";
-
+import { ProfileCanvas } from "../components";
 
 const Hero = () => {
   return (
@@ -25,13 +24,11 @@ const Hero = () => {
             Passionate about AI/ML
           </p>
         </div>
-        {/*<ProfileCanvas/>*/}
-        <img src={"src/assets/kelan2.jpg"} />
+        <ProfileCanvas/>
       </div>
       <div style={{ paddingLeft: "75px", paddingTop: "275px" }}>
         <Socials />
       </div>
-
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>

@@ -1,8 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,19 +22,10 @@ import waymo from "./company/waymo.png";
 import intuidex from "./company/intuidex.png";
 import cry from "./company/cry.png";
 
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
 export {
   django,
   torch,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   menu,
   close,
   css,
@@ -54,9 +41,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   waymo,
   intuidex,
   cry

@@ -1,10 +1,10 @@
-import { HashRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Hero, Navbar, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, StarsCanvas, ProfileCanvas } from "./components";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div className='relative z-0 bg-primary'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
@@ -15,7 +15,7 @@ const App = () => {
         <div className='relative z-0'>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

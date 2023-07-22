@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 
 import { Socials } from "../components";
+import { ProfileCanvas } from "../components";
 
 
 const Hero = () => {
@@ -15,7 +16,6 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#40E0D0]' />
           <div className='w-1 sm:h-80 h-40 turquoise-gradient' />
         </div>
-
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span>Kelan ✌️</span>
@@ -25,8 +25,9 @@ const Hero = () => {
             Passionate about AI/ML
           </p>
         </div>
+        <ProfileCanvas/>
       </div>
-      <div style={{ paddingLeft: "75px", paddingTop: "175px" }}>
+      <div style={{ paddingLeft: "75px", paddingTop: "275px" }}>
         <Socials />
       </div>
 

@@ -4,8 +4,8 @@ import { TextureLoader, DoubleSide, CircleGeometry, MeshBasicMaterial, Group, Me
 import CanvasLoader from '../Loader';
 
 const ProfileCanvas = () => {
-  const texture1 = useLoader(TextureLoader, '/src/assets/kelan2.JPG');
-  const texture2 = useLoader(TextureLoader, '/src/assets/kelan3.JPG');
+  const texture1 = useLoader(TextureLoader, 'src/assets/kelan2.jpg');
+  const texture2 = useLoader(TextureLoader, 'src/assets/kelan3.jpg');
 
   const groupRef = React.useRef();
 

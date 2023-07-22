@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
 
@@ -6,6 +7,7 @@ import { Socials } from "../components";
 import { ProfileCanvas } from "../components";
 
 const Hero = () => {
+  const isMobile = useMobileDetect();
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -24,7 +26,7 @@ const Hero = () => {
             Passionate about AI/ML
           </p>
         </div>
-        <ProfileCanvas/>
+        {!isMobile && <ProfileCanvas/>}
       </div>
       <div style={{ paddingLeft: "75px", paddingTop: "275px" }}>
         <Socials />
@@ -32,5 +34,24 @@ const Hero = () => {
     </section>
   );
 };
+
+function useMobileDetect() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    checkIsMobile();
+    window.addEventListener('resize', checkIsMobile);
+
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
+  }, []);
+
+  return isMobile;
+}
 
 export default Hero;

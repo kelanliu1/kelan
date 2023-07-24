@@ -4,7 +4,7 @@ import {
   intuidex,
   torch,
   django,
-  cry,
+  work,
 } from "../assets";
 
 import linkedin from "../assets/linkedin-in.svg";
@@ -83,9 +83,9 @@ const experiences = [
     ],
   },
   {
-    title: "Hire Me Pls ❤️",
+    title: "Ready to Work!",
     company_name: "Unemployed",
-    icon: cry,
+    icon: work,
     iconBg: "#E6DEDD",
     date: "Present",
     points: [

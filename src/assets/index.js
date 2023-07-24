@@ -21,6 +21,7 @@ import django from "./tech/django.png";
 import waymo from "./company/waymo.png";
 import intuidex from "./company/intuidex.png";
 import cry from "./company/cry.png";
+import work from "./company/work.gif";
 
 export {
   django,
@@ -42,5 +43,6 @@ export {
   threejs,
   waymo,
   intuidex,
-  cry
+  cry,
+  work
 };

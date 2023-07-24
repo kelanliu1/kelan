@@ -53,6 +53,7 @@ const socials = [
     icon: mail,
     link: "mailto:kelanliu01@gmail.com"
   },
+  
 ];
 
 const experiences = [

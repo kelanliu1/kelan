@@ -45,7 +45,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I gradauted from Lehigh University with a Bachelor of Science in Computer Science. My skills lie in the intersection of full-stack software engineering and machine learning.
+        I gradauted from Lehigh University with a Bachelor of Science in Computer Science. I have experience in full-stack software engineering and I am passionate about AI/machine learning. I love learning new tech through docs, research papers, and blogs. Please feel free to reach out!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

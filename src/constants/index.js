@@ -83,15 +83,6 @@ const experiences = [
       "Significantly improved intern permission pitfalls by implementing intern-friendly scripts for existing software infrastructure"
     ],
   },
-  {
-    title: "Ready to Work!",
-    company_name: "Unemployed",
-    icon: work,
-    iconBg: "#E6DEDD",
-    date: "Present",
-    points: [
-    ],
-  },
 ];
 
 export { services, experiences, socials };

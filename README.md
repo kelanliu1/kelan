@@ -2,4 +2,4 @@
 
 Static personal site. React + Vite + Threejs.
 
-<a href="https://kelanliu1.github.io">
+[Check it out!](https://kelanliu1.github.io/)
